@@ -1,1 +1,1 @@
-# PJC-202223
+# Programski jezik C - 2022/23

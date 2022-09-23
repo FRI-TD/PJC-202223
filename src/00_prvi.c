@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿// Prvi program
+#include <stdio.h>
 
 int main() {
   printf("Zivel FRI\n");

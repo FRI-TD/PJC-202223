@@ -14,8 +14,8 @@ int main() {
   char trenutna[N];
   char najdaljsa[N] = "";
 
-  while (true) {
-    fgets(trenutna, N, stdin);
+  while (fgets(trenutna, N, stdin)) {
+    
 	if (strcmp(trenutna, "\n")==0) break;
 
 	if (strlen(trenutna) > strlen(najdaljsa))

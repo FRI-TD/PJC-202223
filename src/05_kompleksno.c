@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 // struktura "kompleksno" je zapisana v datoteki cplx.h
-#include "../include/cplx.h"
+#include "cplx.h"
 
 void izpisi(struct kompleksno x) {
   printf("%.2f + %.2f i\n", x.re, x.im);
